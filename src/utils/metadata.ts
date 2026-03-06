@@ -1,5 +1,5 @@
 /**
- * Response metadata utilities for Dominican Republic Law MCP.
+ * Response metadata utilities for Venezuelan Law MCP.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
@@ -9,6 +9,8 @@ export interface ResponseMetadata {
   jurisdiction: string;
   disclaimer: string;
   freshness?: string;
+  note?: string;
+  query_strategy?: string;
 }
 
 export interface ToolResponse<T> {
@@ -30,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Dominican Republic Law (consultoria.gov.do) — National Council for Law Reporting',
-    jurisdiction: 'KE',
+    data_source: 'TSJ (tsj.gob.ve) — Tribunal Supremo de Justicia de Venezuela',
+    jurisdiction: 'VE',
     disclaimer:
-      'This data is sourced from Dominican Republic Law under Government Open Data principles. ' +
-      'The authoritative versions are in English. Swahili translations may be available for some documents. ' +
-      'Always verify with the official Dominican Republic Law portal (consultoria.gov.do).',
+      'This data is sourced from the Tribunal Supremo de Justicia (TSJ) portal. ' +
+      'The authoritative versions are maintained by the Venezuelan government. ' +
+      'Always verify with the official TSJ portal (tsj.gob.ve).',
     freshness,
   };
 }
