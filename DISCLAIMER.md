@@ -8,80 +8,94 @@ This software (the "Tool") is provided for **informational and research purposes
 
 ### What This Means
 
-- **No Attorney-Client Relationship**: Use of this Tool does not create an attorney-client relationship (relación abogado-cliente)
+- **No Attorney-Client Relationship**: Use of this Tool does not create an attorney-client relationship (relación abogado-cliente) between the user and any party
 - **No Professional Responsibility**: The authors and contributors assume no professional responsibility for decisions made based on information from this Tool
-- **Verification Required**: ALL legal information, citations, and conclusions must be independently verified with official sources and qualified legal professionals before being relied upon
+- **Verification Required**: ALL legal information, citations, and conclusions must be independently verified with official Venezuelan sources and qualified legal professionals before being relied upon
 
 ## Professional Use Warnings
 
 ### For Legal Professionals
 
-If you are a lawyer (abogado/abogada), legal researcher, or other legal professional:
+If you are an abogado, legal researcher, or other legal professional practising in Venezuela or advising on Venezuelan law:
 
-- **Malpractice Risk**: Relying on unverified information from this Tool in professional legal work may constitute professional malpractice (responsabilidad profesional)
-- **Professional Obligations**: You remain solely responsible for verifying all citations, statutes, and legal positions before advising clients or filing documents
-- **Professional Rules**: Members of the Federación de Colegios de Abogados de Venezuela (FEDECAV) and regional Colegios de Abogados must comply with applicable professional conduct rules (código de ética profesional del abogado venezolano) when using AI tools
-- **Client Disclosure**: Consider whether professional ethics rules (ética profesional) require disclosing AI tool use to clients
+- **Malpractice Risk**: Relying on unverified information from this Tool in professional legal work may constitute professional negligence and expose you to disciplinary liability before **INPREABOGADO** (Instituto de Previsión Social del Abogado — inpreabogado.org.ve) and civil liability to clients
+- **Professional Obligations**: You remain solely responsible for verifying all citations, statutes, and legal positions before advising clients or preparing legal documents
+- **Bar Rules**: Members of INPREABOGADO and the corresponding Colegios de Abogados must comply with the **Código de Ética del Abogado Venezolano**. The duty of diligence and competence requires independent verification of any AI-generated output before it is used in professional practice
+- **Client Disclosure**: Consider whether your professional ethics obligations require disclosing AI tool use to clients, particularly where automated methods could affect the quality or accuracy of advice
 
 ### Duty of Independent Verification
 
-**YOU MUST VERIFY EVERYTHING.** Do not cite, quote, or rely on any provision, case law, or legal interpretation from this Tool without:
+**YOU MUST VERIFY EVERYTHING.** Do not cite, quote, or rely on any provision, statute, or legal interpretation from this Tool without:
 
-1. Checking the official source (Gaceta Oficial de la República Bolivariana de Venezuela — gazetaoficial.gob.ve)
-2. Verifying the provision is currently in force (vigente) and has not been amended (modificado)
-3. Reading the full context of cited provisions
-4. Consulting case law (jurisprudencia) and explanatory materials (exposición de motivos) for interpretation
-5. Considering how recent legal developments may affect the matter
+1. Checking the official text in the **Gaceta Oficial de la República Bolivariana de Venezuela** (gacetaoficial.gob.ve), the sole authoritative source for enacted Venezuelan law
+2. Confirming the provision is currently in force and has not been amended (reformado), repealed (derogado), or superseded by decree
+3. Reading the full context of cited provisions — article-level excerpts may omit qualifications, transitional provisions, and exceptions
+4. Checking whether implementing regulations (reglamentos), presidential decrees (decretos presidenciales), or ministerial resolutions (resoluciones ministeriales) affect the provision's application
+5. Consulting relevant decisions of the **Tribunal Supremo de Justicia (TSJ)** — particularly the Sala Constitucional for constitutional interpretation and the Sala de Casación Civil and Sala de Casación Penal for substantive law
+6. Considering how currency controls, emergency decrees, or economic regulations may affect the practical application of a statutory provision
 
 ## Data Authority and Limitations
 
 ### Source Authority
 
-This Tool aggregates data from official Venezuelan legal databases. However:
+This Tool aggregates data from Venezuelan legislative sources. The authoritative hierarchy for Venezuelan law is:
 
 | Source Type | Authority Level | Use Case |
 |------------|----------------|----------|
-| **Gaceta Oficial (gazetaoficial.gob.ve)** | Authoritative | Statute text, decrees, regulations (primary reference) |
-| **Tribunal Supremo de Justicia (tsj.gob.ve)** | Authoritative | Supreme court jurisprudence (all chambers) |
-| **Asamblea Nacional** | Authoritative | Legislative records |
-| **Community/open-data sources** | Supplementary | Cross-references, metadata (verify independently) |
+| **Gaceta Oficial de la República Bolivariana de Venezuela** | Authoritative | All primary legislation and executive acts — the only source with legal force |
+| **Asamblea Nacional (asambleanacional.gob.ve)** | Official reference | Legislative texts and parliamentary records |
+| **TSJ decisions (tsj.gob.ve)** | Authoritative for case law | Constitutional interpretation, cassation decisions |
+| **This Tool's database** | Research aid only | Preliminary research — MUST be verified against primary sources |
+| **Community / open-data compilations** | Supplementary | Cross-references only — verify independently |
 
-**CRITICAL**: Community-maintained resources are **NOT** official government publications. While generally reliable, they may contain transcription errors, outdated information, or incomplete coverage.
+**CRITICAL**: The **Gaceta Oficial** is the sole authoritative publication for Venezuelan law. A statute or decree does not have legal force until published in the Gaceta Oficial, and the published text governs over any other version. This Tool does not replicate the Gaceta Oficial — it provides a research-grade compilation that may lag, omit, or misrepresent the official text.
 
-**ADDITIONAL CAUTION**: Venezuela's legal framework has undergone extensive change in recent years. High rates of legislative activity, economic emergency decrees, and the interaction between legislation and Tribunal Supremo de Justicia decisions create significant complexity. Verify all provisions with heightened care.
+### Legislative and Political Instability
 
-### Commercial Legal Databases
+Venezuelan law has been subject to significant legislative activity, executive decrees, and constitutional reinterpretations in recent years. This creates particular risks for users of any Venezuelan legal database:
 
-For professional legal work, **always cross-check with commercial legal databases** such as:
+- **Decree Law Activity**: The executive branch has issued extensive decree laws (decretos con fuerza de ley) that may amend or supersede codified legislation
+- **Dual Legislative Claims**: Historical periods of contested legislative authority may affect the status of laws passed during those periods — verify the constitutional basis of any statute you rely on
+- **Economic Regulation Volatility**: Regulations governing foreign exchange, price controls, and business operations change frequently; database currency is particularly unreliable for this area of law
+- **Sanctions and International Law**: International sanctions regimes affecting Venezuela may interact with domestic law in ways this Tool cannot assess
 
-- Editorial Jurídica Venezolana, Pierre Tapia, or institutional repositories maintained by Venezuelan universities (UCV, USB, UCAB)
+### Official Databases
 
-These services provide editorial oversight, comprehensive annotations (comentarios), and professional-grade currency guarantees that this Tool **cannot** provide.
+For professional research on Venezuelan law:
+
+- **Gaceta Oficial**: gacetaoficial.gob.ve (official gazette — primary source)
+- **Asamblea Nacional**: asambleanacional.gob.ve (legislative database)
+- **Tribunal Supremo de Justicia**: tsj.gob.ve (case law)
+- **CENDOJ Venezuela** (Centro de Documentación e Investigación Jurídica): supplementary legislative research resource
 
 ## Currency and Staleness
 
 ### No Real-Time Updates
 
-- Database updates are **manual** and may lag official publications by **weeks or months**
-- Venezuelan law changes through new statutes (leyes), presidential decrees (decretos presidenciales), ministerial resolutions (resoluciones ministeriales), and court decisions (sentencias)
-- **Last-updated timestamps** in tool responses indicate data age, but should be treated as unreliable
+- Database updates are **manual** and may lag official Gaceta Oficial publications by **weeks or months**
+- Venezuelan law changes through leyes (statutes), decretos con rango y fuerza de ley (decree laws), reglamentos (regulations), resoluciones (resolutions), and providencias administrativas
+- Emergency measures and economic regulations may be issued and take effect within days
+- **Last-updated timestamps** in tool responses indicate data age, but should be treated with significant caution given the pace of regulatory change in Venezuela
 
 ### Staleness Warnings
 
-The Tool includes staleness warnings when data is >30 days old. **These warnings are not exhaustive**:
+The Tool includes staleness warnings when data is more than 30 days old. **These warnings are not exhaustive:**
 
-- Even "fresh" data may be outdated if recent amendments were published in the Gaceta Oficial Extraordinaria
+- Even "fresh" data may be outdated if recent Gaceta Oficial extraordinary editions (Gacetas Oficiales Extraordinarias) have amended relevant provisions
 - Staleness warnings do not guarantee completeness or accuracy
-- Always check official sources for the current legal position (texto legal vigente)
+- Economic and sectoral regulations are particularly prone to rapid change; always check the current Gaceta Oficial
 
 ### Amendments and Repeals
 
-- A provision marked "in force" may have been:
-  - Amended (modificado) after the last database update
-  - Repealed (derogado) but not yet removed from the database
-  - Subject to transitional rules (disposiciones transitorias) affecting its applicability
-  - Affected by economic emergency regulations (decretos de emergencia económica)
-- The Tool does **NOT** automatically track amendments in real-time
+A provision marked "in force" may have been:
+
+- Amended (reformado o modificado) after the last database update
+- Repealed (derogado) expressly or by implication (derogación tácita)
+- Subject to transitional provisions (disposiciones transitorias) affecting its applicability
+- Suspended or modified by presidential decree under constitutional enabling powers
+- Reinterpreted by binding TSJ Sala Constitucional decision in ways that change its effective meaning
+
+The Tool does **NOT** automatically track amendments, decrees, or court reinterpretations in real-time.
 
 ## Coverage Gaps
 
@@ -89,104 +103,104 @@ The Tool includes staleness warnings when data is >30 days old. **These warnings
 
 This Tool does **NOT** include:
 
-1. **Complete case law** -- Coverage of Tribunal Supremo de Justicia chambers (Constitucional, Político-Administrativa, Civil, Penal, Electoral, Social) and lower court decisions is limited; do not rely solely on this for jurisprudence research
-2. **Historical statute versions** -- Limited availability of historical provision wording
-3. **Legal commentary** -- No editorial annotations (comentarios), academic commentary (doctrina), or practice guides
-4. **Unpublished decisions** -- Lower court decisions and administrative rulings largely absent
-5. **Full legislative history** -- Limited coverage of Asamblea Nacional materials
-6. **Emergency and extraordinary regulations** -- Economic emergency decrees and extraordinary Gaceta Oficial publications may be missing
+1. **Complete case law** — Decisions of the Tribunal Supremo de Justicia and lower courts (tribunales de primera instancia, tribunales superiores) are largely absent; do not rely solely on this Tool for jurisprudencia research
+2. **Historical statute versions** — Limited availability of consolidated historical text before a given compilation date
+3. **Legal commentary** — No doctrinal analysis (doctrina), academic commentary, or practice guides
+4. **Administrative acts** — Resoluciones ministeriales, providencias administrativas, and circulares may not be captured despite having regulatory force
+5. **Full legislative history** — Exposiciones de motivos and parliamentary debates (Diario de Debates de la Asamblea Nacional) are largely absent
+6. **Decree laws and emergency legislation** — Frequent executive decree activity may not be fully reflected in the database
+7. **Recent legislation** — A lag between Gaceta Oficial publication and database ingestion means very recent enactments may be absent
+8. **State and municipal law** — Sub-national legislation from estados and municipios is not covered
 
 ### Impact on Professional Use
 
 These gaps mean:
 
-- **Incomplete Legal Research**: Tool results are inherently incomplete and may miss critical authorities
-- **Context Missing**: Without commentary (doctrina) and legislative materials, interpretation may be incorrect
-- **Regulatory Complexity**: The interaction between primary legislation and emergency decrees requires expert judgment that this Tool cannot supply
+- **Incomplete Legal Research**: Tool results are inherently partial and may miss critical authorities including binding TSJ decisions
+- **Interpretation Risks**: Without doctrinal commentary and TSJ jurisprudencia, interpretation of provisions in areas of legal dispute may be incorrect
+- **Regulatory Blind Spots**: Administrative acts with regulatory force may not appear, leaving gaps in compliance research
 
 ## No Warranties
 
-### "AS IS" -- No Guarantees
+### "AS IS" — No Guarantees
 
 Per the Apache 2.0 license (see [LICENSE](LICENSE)):
 
 - **NO WARRANTY OF ACCURACY**: Data may contain errors, omissions, or outdated information
-- **NO WARRANTY OF COMPLETENESS**: Searches may miss relevant provisions or cases
+- **NO WARRANTY OF COMPLETENESS**: Searches may miss relevant statutes, decrees, or resolutions
 - **NO WARRANTY OF FITNESS**: Not warranted as fit for professional legal use
-- **NO WARRANTY OF NON-INFRINGEMENT**: No guarantee that use complies with professional rules or regulations
+- **NO WARRANTY OF NON-INFRINGEMENT**: No guarantee that use complies with professional rules
 
 ### Limitation of Liability
 
-- Authors and contributors are **NOT LIABLE** for damages arising from use of this Tool
-- This includes but is not limited to:
-  - Professional malpractice claims (responsabilidad por mala praxis profesional)
-  - Lost cases or adverse judgments
-  - Client harm from erroneous advice
-  - Regulatory sanctions from bar authorities (sanciones disciplinarias del Colegio de Abogados)
-  - Reputational damage
+Authors and contributors are **NOT LIABLE** for damages arising from use of this Tool, including but not limited to:
+
+- Professional negligence claims arising from reliance on Tool output
+- Lost cases or adverse judgments
+- Client harm from erroneous legal advice
+- Disciplinary proceedings before INPREABOGADO or the relevant Colegio de Abogados
+- Regulatory sanctions from Venezuelan authorities
+- Financial or reputational damage of any kind
 
 ## AI-Generated Content
 
 This Tool uses **algorithmic search and ranking** that may:
 
 - Return irrelevant or misleading results
-- Miss critical provisions
+- Miss critical provisions, decrees, or resolutions
 - Rank less relevant provisions higher than more relevant ones
-- Make errors in parsing, citation formatting, or cross-referencing
+- Make errors in parsing Spanish-language legal text, citation formatting, or cross-referencing
+- Fail to capture the interpretive weight of TSJ jurisprudencia in areas where court interpretation diverges from statutory text
 
 **Human review is MANDATORY** before relying on any AI-generated search results or analysis.
 
-## EU AI Act Compliance
+### Terminology Complexity
 
-This Tool is a **general-purpose AI system** under the EU AI Act. It is NOT a high-risk "administration of justice" system (which applies to AI used by courts and prosecutors for case outcomes).
-
-### Transparency Obligations (Article 50, 52)
-
-- **AI Disclosure**: This Tool uses AI/algorithmic methods for search and ranking
-- **User Awareness**: Users are notified that results are AI-generated and require verification
-- **Transparency**: This documentation provides information about limitations and risks
-
-### User Obligations
-
-- **Verify AI Output**: Always verify AI-generated citations and search results
-- **Human Oversight**: Do not use Tool output in professional legal work without human review
-- **Professional Rules**: Comply with applicable professional ethics rules regarding AI tool use
+Venezuelan law uses Spanish legal terminology with civil law (derecho civil) roots, influenced by the Código Civil de Venezuela, the Código de Procedimiento Civil, and extensive post-1999 constitutional reform. Terms may carry specific technical meanings under Venezuelan doctrine that differ from other Spanish-speaking jurisdictions. Do not assume that a term means the same thing in Venezuelan law as in Colombian, Spanish, or other Latin American legal systems.
 
 ## Professional Ethics Considerations
 
-### Confidentiality
+### Secreto Profesional (Professional Secrecy)
 
-- See [PRIVACY.md](PRIVACY.md) for detailed confidentiality considerations
-- **Query Data**: Queries made through the Claude API may be logged by Anthropic (subject to their privacy policy)
-- **Client Information**: Do not include client names, case-specific details, or confidential information in queries
-- **Sensitive Matters**: For privileged legal matters (secreto profesional), consider on-premise deployment
+Venezuelan abogados are bound by the duty of professional secrecy (secreto profesional) under **Article 25 of the Código de Ética del Abogado Venezolano**. This duty covers all information received from or about a client in the course of representation.
+
+- Client communications and case details are privileged under the secreto profesional
+- Transmitting client-identifying information to cloud AI services may breach this duty
+- The secreto profesional survives the termination of the client relationship
+- Breach may result in disciplinary proceedings before INPREABOGADO
+- See [PRIVACY.md](PRIVACY.md) for detailed guidance on query structuring to protect client confidentiality
+
+### INPREABOGADO Registration and Discipline
+
+Only abogados registered with INPREABOGADO (inpreabogado.org.ve) are authorised to practise law in Venezuela. Professional discipline — including sanctions for confidentiality breaches — is administered through INPREABOGADO and the Tribunal Disciplinario of the relevant Colegio de Abogados. Use of AI tools that causes client harm or breaches professional obligations may be subject to disciplinary review.
 
 ### Competence and Diligence
 
 Using this Tool does not reduce your professional obligations to:
 
 - Exercise independent legal judgment (criterio jurídico independiente)
-- Conduct thorough legal research using authoritative sources
-- Stay current with legal developments
-- Provide competent representation (diligencia debida del abogado)
+- Conduct thorough legal research using authoritative Gaceta Oficial and TSJ sources
+- Stay current with Venezuelan legal and regulatory developments — a particularly demanding obligation given the pace of change
+- Provide competent and diligent client representation
 
 ## Recommended Workflow for Professional Use
 
-1. **Initial Research**: Use Tool for preliminary research and hypothesis generation
-2. **Official Verification**: Cross-check ALL results with official sources (gazetaoficial.gob.ve, tsj.gob.ve)
-3. **Commercial Databases**: Use professional legal databases (Editorial Jurídica Venezolana, Pierre Tapia) for authoritative, annotated versions
-4. **Professional Judgment**: Apply independent legal analysis and professional judgment
-5. **Document Sources**: Cite official sources in legal work, not this Tool
-6. **Update Check**: Before finalizing legal work, check for recent amendments and extraordinary gazette publications
+1. **Initial Research**: Use this Tool for preliminary hypothesis generation and identifying potentially relevant legislation
+2. **Official Verification**: Cross-check ALL results against the official Gaceta Oficial de la República Bolivariana de Venezuela (gacetaoficial.gob.ve)
+3. **Case Law**: Research relevant TSJ decisions separately at tsj.gob.ve — the Sala Constitucional, Sala de Casación Civil, and Sala de Casación Penal are the most relevant chambers for most practice areas
+4. **Decree and Resolution Check**: Verify that no recent presidential decree or ministerial resolution has affected the area of law you are researching
+5. **Professional Judgment**: Apply independent legal analysis — this Tool is a starting point, not a conclusion
+6. **Document Sources**: Cite the Gaceta Oficial (with number, date, and extraordinary designation if applicable) in legal work, not this Tool
+7. **Update Check**: Before finalising legal work, verify that no Gaceta Oficial publication since your last search has amended or repealed the relevant provisions
 
 ## Changes to This Disclaimer
 
-This disclaimer may be updated as the Tool evolves or legal/regulatory requirements change. Check the [GitHub repository](https://github.com/Ansvar-Systems/Venezuelan-law-mcp) for the current version.
+This disclaimer may be updated as the Tool evolves or requirements change. Check the [GitHub repository](https://github.com/Ansvar-Systems/venezuelan-law-mcp) for the current version.
 
 ## Questions?
 
-For questions about this disclaimer or the Tool's limitations, please open an issue on GitHub:
-https://github.com/Ansvar-Systems/Venezuelan-law-mcp/issues
+For questions about this disclaimer or the Tool's limitations, open an issue on GitHub:
+https://github.com/Ansvar-Systems/venezuelan-law-mcp/issues
 
 ---
 
@@ -196,15 +210,15 @@ https://github.com/Ansvar-Systems/Venezuelan-law-mcp/issues
 
 ## Summary: What You Must Do
 
-- **ALWAYS VERIFY** all legal information with official sources (Gaceta Oficial — gazetaoficial.gob.ve)
+- **ALWAYS VERIFY** all legal information against the official Gaceta Oficial de la República Bolivariana de Venezuela
 - **NEVER RELY** on this Tool as sole basis for legal advice or professional work
-- **UNDERSTAND** this is a research aid, not a substitute for professional legal databases
+- **UNDERSTAND** this is a research aid — Venezuelan law changes rapidly through decrees and resolutions that may not be reflected in this database
 - **ACKNOWLEDGE** data may be incomplete, outdated, or incorrect
-- **COMPLY** with FEDECAV and regional Colegio de Abogados professional ethics rules regarding AI tool use and client confidentiality
-- **DISCLOSE** to clients if required by professional rules (código de ética profesional)
+- **COMPLY** with the Código de Ética del Abogado Venezolano and INPREABOGADO professional rules
+- **PROTECT** client confidentiality (secreto profesional) — do not include client details in queries
 
 - **DO NOT** cite this Tool as an authority in legal documents
-- **DO NOT** use in professional legal work without independent verification
-- **DO NOT** rely on staleness warnings as guarantee of currency
-- **DO NOT** assume coverage is complete or comprehensive
-- **DO NOT** include confidential client information in queries
+- **DO NOT** use in professional legal work without independent verification against the Gaceta Oficial and TSJ decisions
+- **DO NOT** treat the absence of a provision from this Tool as evidence the provision does not exist
+- **DO NOT** assume decree laws and executive acts are reflected in the database — verify separately
+- **DO NOT** include confidential client information in queries transmitted to cloud AI services
